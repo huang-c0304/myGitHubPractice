@@ -18,13 +18,20 @@ public class myAppTester {
 		
 		System.out.print("Please enter the second nunber:	");
 		b = input.nextInt();
+		
 		addition(a, b);
+		substraction(a, b);
 		
 	}
 	
 	public static void addition(int a, int b) {
 		int result = a + b;
 		System.out.println("The result of addition is " + result);
+	}
+	
+	public static void substraction(int a, int b) {
+		int result = a - b;
+		System.out.println("The result of substraction is " + result);
 	}
 
 }
